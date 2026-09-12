@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  // Hardcoded to ensure it always hits the deployed Render backend
-  baseURL: 'https://campus-placement-backend-6lzy.onrender.com/api',
+  // Updated with the correct Render URL from your deployment logs
+  baseURL: 'https://campus-placement-management-system-mu9c.onrender.com/api',
 });
 
 // Add a request interceptor to add the auth token
